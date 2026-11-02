@@ -1,0 +1,10 @@
+step,rows,columns,note
+Raw CSV loaded,21104,126,
+Text columns converted to numeric,21104,126,1896 unparseable cells -> NaN (0 empty cells before conversion)
+MITM removed,21089,126,15 rows
+Duplicate rows,21089,126,0 duplicates removed
+Negative-value rows checked,21089,126,0 rows with negatives (kept)
+"Targets separated (label, type)",21089,124,NaN filled with constant 0
+Near-zero-variance removed (fit on train),14759,104,20 columns
+"99th-percentile caps (fit on train, applied to all)",14759,104,no rows removed
+Correlated columns removed (fit on train),14759,78,"26 columns, |r|>0.95"

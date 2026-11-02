@@ -1,0 +1,36 @@
+{
+  "9": [
+    "Memory Cache Bytes Peak",
+    "Memory System Driver Resident Bytes",
+    "Memory Pool Paged Resident Bytes",
+    "LogicalDisk(_Total) pct_ Free Space",
+    "Network_I(Intel R _82574L_GNC) Packets Sent Unicast sec",
+    "Network_I(Intel R _82574L_GNC) Packets Sent sec",
+    "Network_I(Intel R _82574L_GNC) Bytes Sent sec",
+    "Process_IO Read_Operations_sec",
+    "Process_IO_Write Operations_sec"
+  ],
+  "10": [
+    "Memory Cache Bytes Peak",
+    "Memory System Driver Resident Bytes",
+    "Memory Pool Paged Resident Bytes",
+    "LogicalDisk(_Total) pct_ Free Space",
+    "Network_I(Intel R _82574L_GNC) Packets Sent Unicast sec",
+    "Network_I(Intel R _82574L_GNC) Packets Sent sec",
+    "Network_I(Intel R _82574L_GNC) Bytes Sent sec",
+    "Process_IO Read_Operations_sec",
+    "Process_IO_Write Operations_sec",
+    "Memory Commit Limit"
+  ],
+  "reselect": [
+    "Memory Cache Bytes Peak",
+    "LogicalDisk(_Total) pct_ Free Space",
+    "Network_I(Intel R _82574L_GNC) Packets Sent Unicast sec",
+    "Memory Pool Paged Bytes",
+    "Network_I(Intel R _82574L_GNC) Bytes Sent sec",
+    "Memory Standby Cache Core Bytes",
+    "Memory System Driver Resident Bytes",
+    "Process_IO Read_Operations_sec",
+    "Memory Pool Paged Resident Bytes"
+  ]
+}

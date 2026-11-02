@@ -1,0 +1,121 @@
+scenario,block_size,config,seed,model,recall_on_heldout_block,most_common_wrong
+"dos: train blocks [2, 3], test block 1",50,9,42,RF,0.98,scanning
+"dos: train blocks [2, 3], test block 1",50,9,42,XGB,1.0,
+"dos: train blocks [2, 3], test block 1",50,9,42,LGBM,1.0,
+"dos: train blocks [2, 3], test block 1",50,9,42,FT,0.48,normal
+"dos: train blocks [2, 3], test block 1",50,9,43,RF,0.98,scanning
+"dos: train blocks [2, 3], test block 1",50,9,43,XGB,1.0,
+"dos: train blocks [2, 3], test block 1",50,9,43,LGBM,1.0,
+"dos: train blocks [2, 3], test block 1",50,9,43,FT,0.48,normal
+"dos: train blocks [2, 3], test block 1",50,9,44,RF,1.0,
+"dos: train blocks [2, 3], test block 1",50,9,44,XGB,1.0,
+"dos: train blocks [2, 3], test block 1",50,9,44,LGBM,1.0,
+"dos: train blocks [2, 3], test block 1",50,9,44,FT,0.48,normal
+"dos: train blocks [2, 3], test block 1",50,10,42,RF,0.94,scanning
+"dos: train blocks [2, 3], test block 1",50,10,42,XGB,1.0,
+"dos: train blocks [2, 3], test block 1",50,10,42,LGBM,1.0,
+"dos: train blocks [2, 3], test block 1",50,10,42,FT,0.48,scanning
+"dos: train blocks [2, 3], test block 1",50,10,43,RF,0.98,scanning
+"dos: train blocks [2, 3], test block 1",50,10,43,XGB,1.0,
+"dos: train blocks [2, 3], test block 1",50,10,43,LGBM,1.0,
+"dos: train blocks [2, 3], test block 1",50,10,43,FT,0.48,scanning
+"dos: train blocks [2, 3], test block 1",50,10,44,RF,0.98,scanning
+"dos: train blocks [2, 3], test block 1",50,10,44,XGB,1.0,
+"dos: train blocks [2, 3], test block 1",50,10,44,LGBM,1.0,
+"dos: train blocks [2, 3], test block 1",50,10,44,FT,0.48,scanning
+"dos: train blocks [1, 3], test block 2",116,9,42,RF,1.0,
+"dos: train blocks [1, 3], test block 2",116,9,42,XGB,1.0,
+"dos: train blocks [1, 3], test block 2",116,9,42,LGBM,1.0,
+"dos: train blocks [1, 3], test block 2",116,9,42,FT,0.9310344827586207,normal
+"dos: train blocks [1, 3], test block 2",116,9,43,RF,1.0,
+"dos: train blocks [1, 3], test block 2",116,9,43,XGB,1.0,
+"dos: train blocks [1, 3], test block 2",116,9,43,LGBM,1.0,
+"dos: train blocks [1, 3], test block 2",116,9,43,FT,0.9568965517241379,normal
+"dos: train blocks [1, 3], test block 2",116,9,44,RF,1.0,
+"dos: train blocks [1, 3], test block 2",116,9,44,XGB,1.0,
+"dos: train blocks [1, 3], test block 2",116,9,44,LGBM,1.0,
+"dos: train blocks [1, 3], test block 2",116,9,44,FT,0.9482758620689655,normal
+"dos: train blocks [1, 3], test block 2",116,10,42,RF,1.0,
+"dos: train blocks [1, 3], test block 2",116,10,42,XGB,1.0,
+"dos: train blocks [1, 3], test block 2",116,10,42,LGBM,1.0,
+"dos: train blocks [1, 3], test block 2",116,10,42,FT,0.9482758620689655,scanning
+"dos: train blocks [1, 3], test block 2",116,10,43,RF,1.0,
+"dos: train blocks [1, 3], test block 2",116,10,43,XGB,1.0,
+"dos: train blocks [1, 3], test block 2",116,10,43,LGBM,1.0,
+"dos: train blocks [1, 3], test block 2",116,10,43,FT,0.9568965517241379,scanning
+"dos: train blocks [1, 3], test block 2",116,10,44,RF,1.0,
+"dos: train blocks [1, 3], test block 2",116,10,44,XGB,1.0,
+"dos: train blocks [1, 3], test block 2",116,10,44,LGBM,1.0,
+"dos: train blocks [1, 3], test block 2",116,10,44,FT,0.9482758620689655,scanning
+"dos: train blocks [1, 2], test block 3",359,9,42,RF,0.883008356545961,injection
+"dos: train blocks [1, 2], test block 3",359,9,42,XGB,0.8105849582172702,ddos
+"dos: train blocks [1, 2], test block 3",359,9,42,LGBM,0.5125348189415042,injection
+"dos: train blocks [1, 2], test block 3",359,9,42,FT,0.8356545961002786,injection
+"dos: train blocks [1, 2], test block 3",359,9,43,RF,0.8662952646239555,injection
+"dos: train blocks [1, 2], test block 3",359,9,43,XGB,0.7493036211699164,ddos
+"dos: train blocks [1, 2], test block 3",359,9,43,LGBM,0.5125348189415042,injection
+"dos: train blocks [1, 2], test block 3",359,9,43,FT,0.8384401114206128,injection
+"dos: train blocks [1, 2], test block 3",359,9,44,RF,0.8857938718662952,normal
+"dos: train blocks [1, 2], test block 3",359,9,44,XGB,0.7158774373259053,ddos
+"dos: train blocks [1, 2], test block 3",359,9,44,LGBM,0.5125348189415042,injection
+"dos: train blocks [1, 2], test block 3",359,9,44,FT,0.8551532033426184,injection
+"dos: train blocks [1, 2], test block 3",359,10,42,RF,0.8941504178272981,normal
+"dos: train blocks [1, 2], test block 3",359,10,42,XGB,0.6991643454038997,ddos
+"dos: train blocks [1, 2], test block 3",359,10,42,LGBM,0.5125348189415042,injection
+"dos: train blocks [1, 2], test block 3",359,10,42,FT,0.8551532033426184,injection
+"dos: train blocks [1, 2], test block 3",359,10,43,RF,0.871866295264624,injection
+"dos: train blocks [1, 2], test block 3",359,10,43,XGB,0.83008356545961,ddos
+"dos: train blocks [1, 2], test block 3",359,10,43,LGBM,0.5125348189415042,injection
+"dos: train blocks [1, 2], test block 3",359,10,43,FT,0.8495821727019499,injection
+"dos: train blocks [1, 2], test block 3",359,10,44,RF,0.8802228412256268,normal
+"dos: train blocks [1, 2], test block 3",359,10,44,XGB,0.8802228412256268,password
+"dos: train blocks [1, 2], test block 3",359,10,44,LGBM,0.5125348189415042,injection
+"dos: train blocks [1, 2], test block 3",359,10,44,FT,0.8551532033426184,injection
+"normal: train blocks [2], test block 1",1131,9,42,RF,1.0,
+"normal: train blocks [2], test block 1",1131,9,42,XGB,1.0,
+"normal: train blocks [2], test block 1",1131,9,42,LGBM,1.0,
+"normal: train blocks [2], test block 1",1131,9,42,FT,1.0,
+"normal: train blocks [2], test block 1",1131,9,43,RF,1.0,
+"normal: train blocks [2], test block 1",1131,9,43,XGB,1.0,
+"normal: train blocks [2], test block 1",1131,9,43,LGBM,1.0,
+"normal: train blocks [2], test block 1",1131,9,43,FT,1.0,
+"normal: train blocks [2], test block 1",1131,9,44,RF,1.0,
+"normal: train blocks [2], test block 1",1131,9,44,XGB,1.0,
+"normal: train blocks [2], test block 1",1131,9,44,LGBM,1.0,
+"normal: train blocks [2], test block 1",1131,9,44,FT,1.0,
+"normal: train blocks [2], test block 1",1131,10,42,RF,0.9991158267020336,dos
+"normal: train blocks [2], test block 1",1131,10,42,XGB,1.0,
+"normal: train blocks [2], test block 1",1131,10,42,LGBM,1.0,
+"normal: train blocks [2], test block 1",1131,10,42,FT,1.0,
+"normal: train blocks [2], test block 1",1131,10,43,RF,1.0,
+"normal: train blocks [2], test block 1",1131,10,43,XGB,1.0,
+"normal: train blocks [2], test block 1",1131,10,43,LGBM,1.0,
+"normal: train blocks [2], test block 1",1131,10,43,FT,1.0,
+"normal: train blocks [2], test block 1",1131,10,44,RF,0.9991158267020336,dos
+"normal: train blocks [2], test block 1",1131,10,44,XGB,1.0,
+"normal: train blocks [2], test block 1",1131,10,44,LGBM,1.0,
+"normal: train blocks [2], test block 1",1131,10,44,FT,1.0,
+"normal: train blocks [1], test block 2",8869,9,42,RF,0.7890404780696809,scanning
+"normal: train blocks [1], test block 2",8869,9,42,XGB,0.7991881835607171,scanning
+"normal: train blocks [1], test block 2",8869,9,42,LGBM,0.7956928627804714,scanning
+"normal: train blocks [1], test block 2",8869,9,42,FT,0.4448077573570865,password
+"normal: train blocks [1], test block 2",8869,9,43,RF,0.8616529484722065,scanning
+"normal: train blocks [1], test block 2",8869,9,43,XGB,0.7987371744277821,scanning
+"normal: train blocks [1], test block 2",8869,9,43,LGBM,0.7956928627804714,scanning
+"normal: train blocks [1], test block 2",8869,9,43,FT,0.5989401285376029,password
+"normal: train blocks [1], test block 2",8869,9,44,RF,0.7954673582140038,scanning
+"normal: train blocks [1], test block 2",8869,9,44,XGB,0.797947908445146,xss
+"normal: train blocks [1], test block 2",8869,9,44,LGBM,0.7956928627804714,scanning
+"normal: train blocks [1], test block 2",8869,9,44,FT,0.4441312436576841,password
+"normal: train blocks [1], test block 2",8869,10,42,RF,0.848235426767392,scanning
+"normal: train blocks [1], test block 2",8869,10,42,XGB,0.796707633329575,scanning
+"normal: train blocks [1], test block 2",8869,10,42,LGBM,0.5863118728154245,xss
+"normal: train blocks [1], test block 2",8869,10,42,FT,0.5097530724997181,xss
+"normal: train blocks [1], test block 2",8869,10,43,RF,0.8325628593979028,scanning
+"normal: train blocks [1], test block 2",8869,10,43,XGB,0.7987371744277821,scanning
+"normal: train blocks [1], test block 2",8869,10,43,LGBM,0.5863118728154245,xss
+"normal: train blocks [1], test block 2",8869,10,43,FT,0.45179839891757806,password
+"normal: train blocks [1], test block 2",8869,10,44,RF,0.866163039801556,scanning
+"normal: train blocks [1], test block 2",8869,10,44,XGB,0.7986244221445484,scanning
+"normal: train blocks [1], test block 2",8869,10,44,LGBM,0.5863118728154245,xss
+"normal: train blocks [1], test block 2",8869,10,44,FT,0.5272296764009471,xss

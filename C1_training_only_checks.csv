@@ -1,0 +1,12 @@
+check,passed
+near_constant,True
+caps,True
+correlation,True
+reselection,True
+near-constant filter (20 columns),True
+99th-percentile caps,True
+correlation filter (26 columns),True
+RF top-20 ranking,True
+F-statistic cutoff,True
+reselected features,True
+scalers (all 3 feature sets),True

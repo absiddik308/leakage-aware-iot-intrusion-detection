@@ -1,0 +1,21 @@
+,rf_importance,F_train,decision
+Process_Pool_Paged Bytes,0.10140695984904233,6431.780825835707,F >= 2337.5
+Process_Virtual_Bytes Peak,0.0943859276046969,38623.509965987076,F >= 2337.5
+Network_I(Intel R _82574L_GNC)TCP_APS,0.08490523571639733,,fingerprint (hand-flagged)
+Memory Long-Term Average Standby Cache Lifetime (s),0.06624931396819056,,fingerprint (hand-flagged)
+Memory System Driver Total Bytes,0.061572523016942694,29591.359630663414,F >= 2337.5
+Memory Free System Page Table Entries,0.05472361165734144,,fingerprint (hand-flagged)
+Process_Pool Nonpaged Bytes,0.036188244891394085,2879.240210556058,F >= 2337.5
+Process_Working Set,0.03347499536746434,5548.522209917429,F >= 2337.5
+Memory Cache Bytes Peak,0.03328704620235317,413.6445090747526,kept
+Memory System Cache Resident Bytes,0.032498173466317046,2927.1053918732146,F >= 2337.5
+Memory Pool Nonpaged Bytes,0.03244031353095669,2897.600085765327,F >= 2337.5
+LogicalDisk(_Total) pct_ Free Space,0.03205174350876664,482.3156375989393,kept
+Memory Commit Limit,0.030835211902849345,46.33062957598374,MCL (manual rule)
+Network_I(Intel R _82574L_GNC) Packets Sent Unicast sec,0.02633753213485639,336.4328004408053,kept
+Memory Pool Paged Bytes,0.02515487734130497,236.88418087973696,kept
+Network_I(Intel R _82574L_GNC) Bytes Sent sec,0.02229599088102367,1524.902267237116,kept
+Memory Standby Cache Core Bytes,0.019933368944286316,1235.9806149054355,kept
+Memory System Driver Resident Bytes,0.018628394416081967,1424.025937634387,kept
+Process_IO Read_Operations_sec,0.017020875328717138,294.2081304049181,kept
+Memory Pool Paged Resident Bytes,0.017003867973878598,1186.5691368038254,kept

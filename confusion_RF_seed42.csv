@@ -1,0 +1,8 @@
+,DDoS,DoS,Injection,Normal,Password,Scanning,XSS
+DDoS,914,0,0,8,0,0,0
+DoS,0,106,0,0,0,0,0
+Injection,0,0,123,0,0,0,0
+Normal,0,0,0,2000,0,0,0
+Password,0,0,0,0,726,0,0
+Scanning,0,0,0,13,0,77,0
+XSS,0,0,0,0,0,0,254

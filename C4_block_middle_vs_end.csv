@@ -1,0 +1,11 @@
+block,records,end_records,errors_in_block,median_abs_shift,share_features_closer_to_normal,largest_shifts
+ddos-1,4608,230,160,0.4778165891974136,0.5833333333333334,pct_ Free Space -7.4; Memory Standby Cache Core Bytes +4.7; Memory Pool Paged Resident Bytes -1.7
+dos-1,50,10,0,0.5109667827005464,0.6666666666666666,Memory System Driver Resident Bytes -1.1; Memory Standby Cache Core Bytes +1.0; Memory Pool Paged Resident Bytes -1.0
+dos-2,116,10,0,0.06654702020548015,0.25,Memory System Driver Resident Bytes -2048.0; pct_ Free Space -6.2; Memory Standby Cache Core Bytes +1.0
+dos-3,359,17,106,0.45058773142052627,0.6666666666666666,Process_IO_Write Operations_sec -0.8; Process_IO Read_Operations_sec -0.8; Packets Sent Unicast sec -0.8
+injection-1,612,30,0,0.14895507373168554,0.3333333333333333,pct_ Free Space -1.2; Memory System Driver Resident Bytes +1.0; Memory Pool Paged Resident Bytes +0.2
+normal-1,1131,56,0,0.9491889606396064,,Memory System Driver Resident Bytes +18928961.9; Memory Standby Cache Core Bytes +71.0; Memory Pool Paged Resident Bytes -8.4
+normal-2,8869,443,1338,0.5269399007139235,,Memory System Driver Resident Bytes +21271653.7; Memory Standby Cache Core Bytes +2.6; Memory Commit Limit +0.9
+password-1,3628,181,21,0.08014949301761998,0.0,Memory System Driver Resident Bytes -15.6; pct_ Free Space -9.0; Memory Standby Cache Core Bytes +0.6
+scanning-1,447,22,89,2.813623002498369,0.6666666666666666,Memory Cache Bytes Peak -166961152.0; Memory Standby Cache Core Bytes -1103.4; Memory Pool Paged Bytes -97.9
+xss-1,1269,63,0,0.16880102578583747,0.25,pct_ Free Space -2.9; Memory Standby Cache Core Bytes +2.4; Memory Pool Paged Bytes +1.6

@@ -1,0 +1,11 @@
+block,records,end_records,error_records,median_abs_shift_SD,share_features_closer_to_normal,largest_shifts_SD
+ddos-1,4608,230,146,0.2,0.58,Memory Standby Cache Core Bytes +2.29; Memory Pool Paged Resident Bytes -2.09; pct_ Free Space -1.84
+dos-1,50,10,0,1.16,0.67,Process_IO Read_Operations_sec -2.11; Memory System Driver Resident Bytes -2.05; Memory Standby Cache Core Bytes +1.78
+dos-2,116,10,0,0.01,0.25,Memory Standby Cache Core Bytes +1.14; pct_ Free Space -0.03; Memory Pool Paged Bytes -0.01
+dos-3,359,17,0,0.78,0.67,Process_IO_Write Operations_sec -2.58; Process_IO Read_Operations_sec -2.48; Bytes Sent sec -2.20
+injection-1,612,30,0,0.15,0.33,Memory System Driver Resident Bytes +2.10; pct_ Free Space -1.66; Memory Pool Paged Resident Bytes +0.66
+normal-1,1131,56,0,0.1,,Memory System Driver Resident Bytes +2.44; Memory Pool Paged Resident Bytes -2.22; Memory Standby Cache Core Bytes +0.87
+normal-2,8869,443,9,0.03,,Memory System Driver Resident Bytes +2.08; Memory Commit Limit +1.68; Memory Pool Paged Resident Bytes -0.74
+password-1,3628,181,21,0.19,0.0,Memory System Driver Resident Bytes -3.38; pct_ Free Space -2.44; Memory Standby Cache Core Bytes +1.29
+scanning-1,447,22,34,0.1,0.67,Memory Cache Bytes Peak -5.94; Memory Standby Cache Core Bytes -2.51; Memory Pool Paged Bytes -2.22
+xss-1,1269,63,0,0.07,0.25,pct_ Free Space -2.61; Memory Pool Paged Resident Bytes +2.49; Memory Pool Paged Bytes +2.14

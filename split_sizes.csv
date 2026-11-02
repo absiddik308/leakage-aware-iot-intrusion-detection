@@ -1,0 +1,8 @@
+,train,val,test,gap_dropped
+ddos,3225,461,922,0
+dos,367,52,106,0
+injection,428,61,123,0
+normal,7000,1000,2000,0
+password,2539,363,726,0
+scanning,312,45,90,0
+xss,888,127,254,0
